@@ -53,7 +53,7 @@ function draw() {
       }
    }
    generateCoins();
-   //to des
+   //to destroy the coins when mario touch
    for(var t=0; t<coins_group.length;t++){
       var rest = (coins_group).get(t);
       if (rest.isTouching(mario));
